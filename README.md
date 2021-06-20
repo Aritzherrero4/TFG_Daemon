@@ -2,6 +2,8 @@
 This repository contains all the files needed by the daemon fsCheck of my end of degree work. 
 This particular daemon is responsible for generating a Merkle tree starting in the indicated directory and updating the root hash whenever a change notifications is received.
 
+For more information, check out the complementary daemon to [detect changes made to the filesystem in real time](https://github.com/Aritzherrero4/TFG_fsNotifierDaemon) or the complementary project, [Distributed integrity monitoring system based on Blockchain technology](https://github.com/AitorB16/Blockchain-based-integrity-monitoring-distributed-net-protocol). To understand how the whole system works, check [the complete documentation](https://labur.eus/tfg_aritzherrero_documentation) 
+
 ## Configuration
 The configuration file fsCheck.config allows the user to specify the base path that will be the root directory of the system and the hash algorithm to use. 
 There are two algorithms supported: Blake3 and SHA-256. This file must be in the same directory of the executable. 
